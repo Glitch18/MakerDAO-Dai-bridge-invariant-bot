@@ -57,9 +57,6 @@ function provideHandleTransaction(
               severity: FindingSeverity.Critical,
               type: FindingType.Exploit,
               metadata: {
-                src: src,
-                dst: dst,
-                amt: wad,
                 opL1DaiCount: opL1DaiCount.toString(),
                 opL2DaiSupply: opL2DaiSupply.toString(),
               },
@@ -95,9 +92,6 @@ function provideHandleTransaction(
               severity: FindingSeverity.Critical,
               type: FindingType.Exploit,
               metadata: {
-                src: src,
-                dst: dst,
-                amt: wad,
                 opL1DaiCount: arL1DaiCount.toString(),
                 opL2DaiSupply: arL2DaiSupply.toString(),
               },
@@ -133,9 +127,6 @@ function provideHandleTransaction(
               severity: FindingSeverity.Critical,
               type: FindingType.Exploit,
               metadata: {
-                src: src,
-                dst: dst,
-                amt: wad,
                 opL1DaiCount: opL1DaiCount.toString(),
                 opL2DaiSupply: opL2DaiSupply.toString(),
               },
@@ -171,9 +162,6 @@ function provideHandleTransaction(
               severity: FindingSeverity.Critical,
               type: FindingType.Exploit,
               metadata: {
-                src: src,
-                dst: dst,
-                amt: wad,
                 opL1DaiCount: arL1DaiCount.toString(),
                 opL2DaiSupply: arL2DaiSupply.toString(),
               },
