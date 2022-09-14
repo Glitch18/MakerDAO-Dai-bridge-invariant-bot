@@ -1,4 +1,4 @@
-import { ethers, getEthersProvider, LogDescription } from "forta-agent";
+import { ethers, getEthersProvider } from "forta-agent";
 import { providers } from "ethers";
 import { daiAbi } from "./abis/dai";
 
