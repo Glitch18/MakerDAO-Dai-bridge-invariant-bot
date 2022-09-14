@@ -5,7 +5,9 @@
   "chainIds": [
     1
   ],
-  "repository": {"url": "https://github.com/Glitch18/MakerDAO-Dai-bridge-invariant-bot"},
+  "repository": {
+    "url": "https://github.com/Glitch18/MakerDAO-Dai-bridge-invariant-bot"
+  },
   "scripts": {
     "build": "tsc",
     "start": "npm run start:dev",
@@ -26,7 +28,8 @@
     "format": "prettier --write \"src/**/*.ts\""
   },
   "dependencies": {
-    "forta-agent": "^0.1.10"
+    "forta-agent": "^0.1.10",
+    "lru-cache": "^7.14.0"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",
